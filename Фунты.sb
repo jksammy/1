@@ -1,0 +1,17 @@
+'Пересче веса из фунтов в килограммы
+' 1 фунт = 453,59237 грамма
+
+TextWindow.WriteLine("Пересчет веса из фунтов в килограммы")
+
+'  Ввод исходных данных
+TextWindow.Write("Введите вес в фунтах -> ")
+funt = TextWindow.ReadNumber()
+
+' Расчет
+kg = funt * 0.45359
+
+'Вывод результата
+TextWindow.Write(funt)
+TextWindow.Write(" ф. = ")
+TextWindow.Write(kg)
+TextWindow.Write(" кг")
